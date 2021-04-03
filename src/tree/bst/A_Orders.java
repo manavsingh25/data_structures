@@ -1,3 +1,9 @@
+/**
+ *
+ *          to find the orders of a binary tree
+ *          inorder,postorder,preorder
+ *
+ */
 package tree.bst;
 
 public class A_Orders {
@@ -16,21 +22,21 @@ public class A_Orders {
             return;
         }
         System.out.print(node.value + "  ");
-        inorder(node.left);
-        inorder(node.right);
+        preorder(node.left);
+        preorder(node.right);
     }
 
     static void postorder(Node node) {
         if (node == null) {
             return;
         }
-        inorder(node.left);
-        inorder(node.right);
+        postorder(node.left);
+        postorder(node.right);
         System.out.print(node.value + "  ");
     }
 
     public static void main(String[] args) {
-        BinarySearchTree bst = BinarySearchTree.createBinaryTree();
+        binarySearhTree bst = binarySearhTree.createBinaryTree();
         System.out.println("preorder for the following binary tree is as follows :");
         inorder(bst.root);
         System.out.println("\npreorder for the following binary tree is as follows :");

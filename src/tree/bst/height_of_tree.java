@@ -1,3 +1,6 @@
+/**
+ *          to find the height of an binary tree
+ */
 package tree.bst;
 
 public class height_of_tree {
@@ -18,7 +21,7 @@ public class height_of_tree {
     }
 
     public static void main(String[] args) {
-        BinarySearchTree bst = BinarySearchTree.createBinaryTree();
+        binarySearhTree bst = binarySearhTree.createBinaryTree();
         int height = heightOfBT(bst.root);
         System.out.println(height);
     }

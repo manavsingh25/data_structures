@@ -1,3 +1,6 @@
+/**
+ *      method to create an node or an root in an binary search tree
+ */
 package tree.bst;
 
 public class Node {
