@@ -15,7 +15,7 @@ public class A_Orders {
         if (node == null) {
             return;
         }
-        System.out.println(node.value + "  ");
+        System.out.print(node.value + "  ");
         inorder(node.left);
         inorder(node.right);
     }
@@ -26,11 +26,16 @@ public class A_Orders {
         }
         inorder(node.left);
         inorder(node.right);
-        System.out.println(node.value + "  ");
+        System.out.print(node.value + "  ");
     }
 
     public static void main(String[] args) {
         BinarySearchTree bst = BinarySearchTree.createBinaryTree();
+        System.out.println("preorder for the following binary tree is as follows :");
         inorder(bst.root);
+        System.out.println("\npreorder for the following binary tree is as follows :");
+        preorder(bst.root);
+        System.out.println("\npostorder for the following binary tree is as follows :");
+        postorder(bst.root);
     }
 }
