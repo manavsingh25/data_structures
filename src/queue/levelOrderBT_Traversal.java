@@ -13,7 +13,6 @@ class Node
 class levelOfBT_Transversal
 {
     Node root;
-
     public levelOfBT_Transversal()
     {
         root = null;
@@ -33,8 +32,6 @@ class levelOfBT_Transversal
         {
             int lheight = height(root.left);
             int rheight = height(root.right);
-
-            /* use the larger one */
             if (lheight > rheight)
                 return(lheight+1);
             else return(rheight+1);
@@ -52,7 +49,7 @@ class levelOfBT_Transversal
             printGivenLevel(root.right, level-1);
         }
     }
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         levelOfBT_Transversal tree = new levelOfBT_Transversal();
         tree.root= new Node(1);

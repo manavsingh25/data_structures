@@ -63,7 +63,7 @@ public class Array2 {
  */
 
 
-
+/**
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i = 1; i <= n; i++) {
@@ -76,7 +76,66 @@ public class Array2 {
             }
             System.out.println();
         }
+//*/
+//        int i,j;
+//        int n=8;
+//        for(i=0;i<=n;i++)
+//        {
+//            if(i==0 || i==n)
+//                System.out.println("* * * * * *");
+//            else
+//                System.out.println("* 1 1 1 1 *");
+//        }
 
+//                int i,m=0,flag=0;
+//                int n=2;
+//                m=n/2;
+//                if(n==0||n==1){
+//                    System.out.println(n+" is not prime number");
+//                }else{
+//                    for(i=2;i<=m;i++){
+//                        if(n%i==0){
+//                            System.out.println(n+" is not prime number");
+//                            flag=1;
+//                            break;
+//                        }
+//                    }
+//                    if(flag==0)  { System.out.println(n+" is prime number"); }
+//                }
+
+
+                int n1, n2, i, f1,f2;
+                f1=f2=1;
+                Scanner sc=new Scanner(System.in);
+                System.out.println("Enter First number:");
+                n1=sc.nextInt();
+                System.out.println("Enter Second number:");
+                n2=sc.nextInt();
+                for(i=2; i<n1; i++)
+                {
+                    if(n1%i==0)
+                    {
+                        f1=0;
+                        break;
+                    }
+                }
+                for(i=2; i<n2; i++)
+                {
+                    if(n2%i==0)
+                    {
+                        f2=0;
+                        break;
+                    }
+                }
+                if(f1==1 && f2==1 && Math.abs(n1-n2)==2)
+                {
+                    System.out.println("Twin Prime Number");
+                }
+                else
+                {
+                    System.out.println("Not a Twin Prime Number");
+                }
+            
     }
 }
 

@@ -19,15 +19,15 @@ public class Queue1 {
         // When rear become equal to front after some time.
         // This means initially we added few element in queue, then we removed all those element.
         // Then if we will dequeue, it should show error message
-//        queue.enqueue(5);
-//        queue.enqueue(7);
-//        queue.enqueue(9);
-//        queue.enqueue(9);
-//        System.out.println(queue.dequeue());
-//        System.out.println(queue.dequeue());
-//        System.out.println(queue.dequeue());
-//        System.out.println(queue.dequeue());
-//        System.out.println(queue.dequeue());
+        queue.enqueue(5);
+        queue.enqueue(7);
+        queue.enqueue(9);
+        queue.enqueue(11);
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
 
         for (int i = 0;i<queue.array.length;i++){
             queue.enqueue(i);
@@ -36,10 +36,9 @@ public class Queue1 {
         System.out.println(queue.dequeue());
         System.out.println(queue.dequeue());
         queue.enqueue(4);
-        queue.enqueue(2);
-        queue.enqueue(5);
-        queue.enqueue(9);
-        int i =0;
+        queue.enqueue(6);
+        queue.enqueue(8);
+        queue.enqueue(10);
 
     }
 
@@ -58,7 +57,7 @@ public class Queue1 {
         if (this.rear == this.front){
             this.front = 0;
             this.rear = 0;
-            System.out.println("No element is queue.");
+            System.out.println("No element in queue.");
             return Integer.MIN_VALUE;
         }
         int element = array[rear];
