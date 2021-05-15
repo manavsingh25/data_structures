@@ -6,7 +6,6 @@ public class largestNumInArray {
         int largest_num = a[0];
         for(int i=0;i<a.length;i++)
         {
-
             if(largest_num<a[i])
             {
                 largest_num = a[i];

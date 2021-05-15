@@ -28,11 +28,6 @@ public class InsersionSort {
                 a[j]=a[j-1];
                 a[j-1]=temp;
             }
-//            for(int m=0;m<a.length;m++)
-//            {
-//                System.out.print(a[m]+"   ");
-//            }
-//            System.out.println();
         }
         for(int m=0;m<a.length;m++)
         {

@@ -29,8 +29,7 @@ class Queue {
                 % this.capacity;
         this.array[this.rear] = item;
         this.size = this.size + 1;
-        System.out.println(item
-                + " enqueued to queue");
+        System.out.println(item + " enqueued to queue");
     }
 
 
@@ -75,13 +74,11 @@ public class queue_geeksforgeeks_implementation {
         queue.enqueue(30);
         queue.enqueue(40);
 
-        System.out.println(queue.dequeue()
-                + " dequeued from queue\n");
+        System.out.println(queue.dequeue() + " dequeued from queue\n");
 
-        System.out.println("Front item is "
-                + queue.front());
+        System.out.println("Front item is " + queue.front());
 
-        System.out.println("Rear item is "
-                + queue.rear());
+        System.out.println("Rear item is " + queue.rear());
+
     }
 }

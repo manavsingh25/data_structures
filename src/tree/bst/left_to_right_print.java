@@ -24,7 +24,6 @@ public class left_to_right_print {
         System.out.print(node.value + "  ");
         leftorder(node.right);
     }
-
     public static void main(String[] args) {
         binarySearhTree bst = binarySearhTree.createBinaryTree();
         System.out.println("left order of the given binary tree is as follows");

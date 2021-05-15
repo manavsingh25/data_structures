@@ -2,7 +2,7 @@ package aarays;
 
 public class ArrayNewStuff {
     public static void main(String[] args) {
-        String[] daysOfWeek = {"sunday","monday","tuesday","wednesday","thrusday","friday","saturday"};
+        String[] daysOfWeek = {"sunday","monday","tuesday","wednesday","thursday","friday","saturday"};
         String dayWithMostCharacters = "";
         for (String day : daysOfWeek)
         {
@@ -11,7 +11,7 @@ public class ArrayNewStuff {
                 dayWithMostCharacters=day;
             }
         }
-        System.out.println("day with most character is :");
+        System.out.print("day with most character is : ");
         System.out.println(dayWithMostCharacters);
     }
 }

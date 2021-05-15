@@ -8,7 +8,6 @@ public class rotationOfNumbers {
         {
             arr[i]=arr[i-1];
         }
-        //arr[1] = last;
         arr[0] = last;
         for(int i=0;i<arr.length;i++)
         {

@@ -20,9 +20,8 @@ public class sortingZerosOnesTwos {
                 no_of_two = no_of_two +1;
             }
         }
-
-        System.out.print(no_of_zeros+", ");
-        System.out.print(no_of_ones+", ");
-        System.out.print(no_of_two);
+        System.out.println("number of zeros : "+no_of_zeros);
+        System.out.println("number of ones : "+no_of_ones);
+        System.out.println("number of twos : "+no_of_two);
     }
 }

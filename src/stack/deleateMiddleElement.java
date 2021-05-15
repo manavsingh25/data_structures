@@ -14,8 +14,7 @@ public class deleateMiddleElement {
             st.push(x);
     }
     public static void main(String[] args) {
-        Stack<Character> st =
-                new Stack<Character>();
+        Stack<Character> st = new Stack<Character>();
         st.push('1');
         st.push('2');
         st.push('3');
