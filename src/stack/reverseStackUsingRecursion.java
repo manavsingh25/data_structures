@@ -1,16 +1,13 @@
 package stack;
 import java.util.Stack;
 
-public class reverseStackUsingRecuursion {
-
-
+public class reverseStackUsingRecursion {
     static class Test {
         static Stack<Character> st = new Stack<>();
         static void insert_at_bottom(char x) {
 
             if (st.isEmpty())
                 st.push(x);
-
             else {
                 char a = st.peek();
                 st.pop();

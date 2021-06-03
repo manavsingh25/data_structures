@@ -59,6 +59,7 @@ public class oopsCocept {
      }
      */
     public static void main(String[] args) {
-        System.out.println("bc");
+        System.out.println("khushi");
+        System.out.println("khushi bhengi h..kisi kaam ki ni h..bs sooti rahti h..bechari ki aannkh khulti he ni h");
     }
 }

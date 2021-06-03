@@ -17,13 +17,15 @@ public class sum_of_bst {
         }
         /**
          *
-         * both the codes are correct
-         * finding the sum of the nodes a binary tree
+         *
+         *
+         * both the codes are correct..................
+         * finding the sum of the nodes a binary tree..
          *
          *
          *
          */
-//          if (node.left == null&&node.right==null) {
+//        if (node.left == null&&node.right==null) {
 //            return node.value;
 //        }
 //        if (node.left==null) {

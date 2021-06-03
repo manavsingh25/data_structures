@@ -16,8 +16,7 @@ public class LinkedList {
             next = null;
         }
     }
-    public static LinkedList insert(LinkedList list,
-                                    int data)
+    public static LinkedList insert(LinkedList list, int data)
     {
         Node new_node = new Node(data);
         new_node.next = null;
@@ -100,6 +99,7 @@ public class LinkedList {
     }
     public static void main(String[] args)
     {
+        
         LinkedList list = new LinkedList();
 
         list = insert(list, 1);
@@ -110,7 +110,6 @@ public class LinkedList {
         list = insert(list, 6);
         list = insert(list, 7);
         list = insert(list, 8);
-
         printList(list);
         deleteByKey(list, 1);
         printList(list);
@@ -126,3 +125,4 @@ public class LinkedList {
         printList(list);
     }
 }
+
