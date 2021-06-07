@@ -26,15 +26,15 @@ import java.util.Locale;
             System.out.println(s1);
             System.out.println(s2);
             System.out.println(s3);
-            System.out.println(s1.length());//inbuild fumction to find the length of an string
+            System.out.println(s1.length());//in-build function to find the length of an string
             System.out.println(s2.length());
             System.out.println(s3.length());
             //to find what element is present at the particular index value
             System.out.println(s3.charAt(4));
             System.out.println(s1.charAt(3));
-            //to check wheather the particular string is empty or not
+            //to check weather the particular string is empty or not
             System.out.println(s1.isEmpty());
-            //to perform concatination operation on 2 strings
+            //to perform concatenation operation on 2 strings
             System.out.println(s1.concat(s2));
             //to insert the escape character inside the string and print the double quotes
             String txt = "We are the so-called \"Vikings\" from the north.";

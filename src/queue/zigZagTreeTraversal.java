@@ -1,6 +1,6 @@
 package queue;
 import java.util.*;
-//this code is for printing the zigzagtraversal of an binary tree
+//this code is for printing the zig-zag-traversal of an binary tree
 //which means that after printing the root node then it will start
 //printing rows ,the first row is the root node itself ,after that
 //for the second row it will start printing the elements from right side
