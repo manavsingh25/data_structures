@@ -9,7 +9,7 @@ public class factorialUsingRecurssion {
          output= output*i;
          }
          System.out.println(output);    */
-        System.out.println(fact(9));
+        System.out.println(fact(0));
     }
     public static int fact(int n) {
         if (n == 1 || n == 0)
