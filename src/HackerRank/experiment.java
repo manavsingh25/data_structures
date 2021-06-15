@@ -31,10 +31,5 @@ public class experiment {
                 arr[i]=arr[i]+1;
             }
         }
-        for(int z=0;z<arr.length;z++)
-        {
-            System.out.print(arr[z]+" ");
-        }
-        System.out.println();
     }
 }
