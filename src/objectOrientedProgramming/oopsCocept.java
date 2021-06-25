@@ -1,13 +1,11 @@
 package objectOrientedProgramming;
 
-public class oopsCocept {
-    /**  package arrays;
-
-     public class oop_book {
-     string name;
+/**
+     public class oopsCocept {
+     String name;
      int code;
      int qty;
-     void set(string name,int code,int qty)
+     void set(String name,int code,int qty)
      {
      this.name = name;
      this.code = code;
@@ -25,7 +23,7 @@ public class oopsCocept {
      }
      void purchase(int unit)
      {
-     this,qty=this.qty+unit;
+     this.qty=this.qty+unit;
      System.out.println(unit+"bought succesfully");
      }
      void check(){
@@ -35,8 +33,8 @@ public class oopsCocept {
      }
 
      public static void main(String[] args) {
-     book b;
-     b=new book();
+     book b=new book();
+
      System.out.println(b);
      System.out.println(b.qty);
      System.out.println(b.name);
@@ -57,9 +55,4 @@ public class oopsCocept {
      b2.check;
      }
      }
-     */
-    public static void main(String[] args) {
-        System.out.println("khushi");
-        System.out.println("khushi bhengi h..kisi kaam ki ni h..bs sooti rahti h..bechari ki aannkh khulti he ni h");
-    }
-}
+*/
